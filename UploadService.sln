@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UploadService", "src\UploadService\UploadService.csproj", "{2D6AA9F7-1C13-4877-B0C5-9B84C930B010}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UploadService.Domain", "src\UploadService.Domain\UploadService.Domain.csproj", "{ACF18ABB-ACB4-40E6-AAFF-037EB92BD998}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "packages", "packages", "{379F99B4-A9A6-4DC2-B540-CD6D8023AB2E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0FFF6B6E-8BF8-4521-87B5-155927FC3209}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C9C112C5-0D40-4AE8-B40F-72FB56ACEB95}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UploadService.Domain.Tests", "tests\UploadService.Domain.Tests\UploadService.Domain.Tests.csproj", "{25E14285-DF1C-4580-9C38-D245F3888564}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "b2xtranslator", "packages\b2xtranslator\b2xtranslator.csproj", "{7F6D24C9-7167-4F64-BA2C-09838C25D4D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "b2xtranslator.doc", "packages\b2xtranslator.doc\b2xtranslator.doc.csproj", "{62797785-C3ED-4E04-8952-3975C836DEFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D6AA9F7-1C13-4877-B0C5-9B84C930B010}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D6AA9F7-1C13-4877-B0C5-9B84C930B010}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D6AA9F7-1C13-4877-B0C5-9B84C930B010}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D6AA9F7-1C13-4877-B0C5-9B84C930B010}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACF18ABB-ACB4-40E6-AAFF-037EB92BD998}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACF18ABB-ACB4-40E6-AAFF-037EB92BD998}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACF18ABB-ACB4-40E6-AAFF-037EB92BD998}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACF18ABB-ACB4-40E6-AAFF-037EB92BD998}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25E14285-DF1C-4580-9C38-D245F3888564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25E14285-DF1C-4580-9C38-D245F3888564}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25E14285-DF1C-4580-9C38-D245F3888564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25E14285-DF1C-4580-9C38-D245F3888564}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F6D24C9-7167-4F64-BA2C-09838C25D4D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F6D24C9-7167-4F64-BA2C-09838C25D4D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F6D24C9-7167-4F64-BA2C-09838C25D4D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F6D24C9-7167-4F64-BA2C-09838C25D4D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62797785-C3ED-4E04-8952-3975C836DEFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62797785-C3ED-4E04-8952-3975C836DEFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62797785-C3ED-4E04-8952-3975C836DEFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62797785-C3ED-4E04-8952-3975C836DEFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2D6AA9F7-1C13-4877-B0C5-9B84C930B010} = {0FFF6B6E-8BF8-4521-87B5-155927FC3209}
+		{ACF18ABB-ACB4-40E6-AAFF-037EB92BD998} = {0FFF6B6E-8BF8-4521-87B5-155927FC3209}
+		{25E14285-DF1C-4580-9C38-D245F3888564} = {C9C112C5-0D40-4AE8-B40F-72FB56ACEB95}
+		{7F6D24C9-7167-4F64-BA2C-09838C25D4D8} = {379F99B4-A9A6-4DC2-B540-CD6D8023AB2E}
+		{62797785-C3ED-4E04-8952-3975C836DEFB} = {379F99B4-A9A6-4DC2-B540-CD6D8023AB2E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48D18267-05E6-4E55-BEE6-10B2F4EDE171}
+	EndGlobalSection
+EndGlobal
