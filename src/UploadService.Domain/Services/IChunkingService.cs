@@ -1,10 +1,11 @@
-﻿using UploadService.Domain.Common.Entities;
+﻿using System.Collections;
+using UploadService.Domain.Common.Entities;
 
 namespace UploadService.Domain.Services
 {
     public interface IChunkingService
     {
         IEnumerable<string> ChunkText(string text);
-        IEnumerable<DocumentChunk> ChunkFile(DocumentFile document);
+        IEnumerable<string> ChunkWithOverlap(string text);
     }
 }
