@@ -1,4 +1,5 @@
 using UploadService.Application.Extensions;
+using UploadService.Data.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +11,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.ConfigureApplication(builder.Configuration);
+builder.Services.ConfigureData(builder.Configuration);
 builder.Services.AddHttpClient();
 
 

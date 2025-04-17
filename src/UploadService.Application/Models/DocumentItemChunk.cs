@@ -9,6 +9,8 @@ namespace UploadService.Application.Models
         [VectorStoreRecordData]
         public required string DocumentName { get; init; }
         [VectorStoreRecordData]
+        public required string DocumentId { get; init; }
+        [VectorStoreRecordData]
         public required string DocumentUrl { get; init; }
         [VectorStoreRecordData(IsFullTextSearchable = true)]
         public required string Content { get; init; }
