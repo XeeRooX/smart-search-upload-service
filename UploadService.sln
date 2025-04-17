@@ -19,15 +19,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "b2xtranslator", "packages\b
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "b2xtranslator.doc", "packages\b2xtranslator.doc\b2xtranslator.doc.csproj", "{62797785-C3ED-4E04-8952-3975C836DEFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UploadService.Application", "UploadService.Application\UploadService.Application.csproj", "{BDAB8A27-AF72-4988-8A2B-24DCFE1F2D34}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UploadService.Application", "src\UploadService.Application\UploadService.Application.csproj", "{BDAB8A27-AF72-4988-8A2B-24DCFE1F2D34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UploadService.Application.Test", "UploadService.Application.Test\UploadService.Application.Test.csproj", "{F10623D7-9291-4762-BBA2-0F2EDB2056C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UploadService.Application.Test", "tests\UploadService.Application.Test\UploadService.Application.Test.csproj", "{F10623D7-9291-4762-BBA2-0F2EDB2056C9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{058366D7-A1DF-4205-9719-9F7F64BC3ECD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "models", "models", "{9B590284-0210-4051-BE9D-4F96284DE713}"
 	ProjectSection(SolutionItems) = preProject
 		common\models\sentencepiece.bpe.model = common\models\sentencepiece.bpe.model
+		common\models\tokenizer.json = common\models\tokenizer.json
 	EndProjectSection
 EndProject
 Global

@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\UploadService.Application\UploadService.Application.csproj" />
+    <ProjectReference Include="..\UploadService.Application\UploadService.Application.csproj" />
   </ItemGroup>
 
 </Project>

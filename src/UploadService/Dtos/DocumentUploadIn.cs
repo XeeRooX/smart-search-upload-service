@@ -38,14 +38,14 @@ namespace UploadService.Dtos
 
             return extension switch
             {
-                "pdf" => DocumentType.Pdf,
-                "rtf" => DocumentType.Rtf,
-                "odt" => DocumentType.Odt,
-                "doc" => DocumentType.Doc,
-                "docx" => DocumentType.Docx,
-                "ods" => DocumentType.Ods,
-                "xls" => DocumentType.Xls,
-                "xlsx" => DocumentType.Xlsx,
+                ".pdf" => DocumentType.Pdf,
+                ".rtf" => DocumentType.Rtf,
+                ".odt" => DocumentType.Odt,
+                ".doc" => DocumentType.Doc,
+                ".docx" => DocumentType.Docx,
+                ".ods" => DocumentType.Ods,
+                ".xls" => DocumentType.Xls,
+                ".xlsx" => DocumentType.Xlsx,
                 _ => throw new ArgumentException()
             };
 
