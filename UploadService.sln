@@ -31,7 +31,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "models", "models", "{9B5902
 		common\models\tokenizer.json = common\models\tokenizer.json
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UploadService.Data", "src\UploadService.Data\UploadService.Data.csproj", "{A5D86960-77E8-445D-937B-3FB619198B25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UploadService.Data", "src\UploadService.Data\UploadService.Data.csproj", "{A5D86960-77E8-445D-937B-3FB619198B25}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "b2xtranslator.ppt", "packages\b2xtranslator.ppt\b2xtranslator.ppt.csproj", "{7FC29013-4EFB-43A9-9927-2E47D4DB0149}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +73,10 @@ Global
 		{A5D86960-77E8-445D-937B-3FB619198B25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5D86960-77E8-445D-937B-3FB619198B25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5D86960-77E8-445D-937B-3FB619198B25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FC29013-4EFB-43A9-9927-2E47D4DB0149}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FC29013-4EFB-43A9-9927-2E47D4DB0149}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FC29013-4EFB-43A9-9927-2E47D4DB0149}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FC29013-4EFB-43A9-9927-2E47D4DB0149}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -85,6 +91,7 @@ Global
 		{F10623D7-9291-4762-BBA2-0F2EDB2056C9} = {C9C112C5-0D40-4AE8-B40F-72FB56ACEB95}
 		{9B590284-0210-4051-BE9D-4F96284DE713} = {058366D7-A1DF-4205-9719-9F7F64BC3ECD}
 		{A5D86960-77E8-445D-937B-3FB619198B25} = {0FFF6B6E-8BF8-4521-87B5-155927FC3209}
+		{7FC29013-4EFB-43A9-9927-2E47D4DB0149} = {379F99B4-A9A6-4DC2-B540-CD6D8023AB2E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {48D18267-05E6-4E55-BEE6-10B2F4EDE171}

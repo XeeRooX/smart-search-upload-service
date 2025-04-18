@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\packages\b2xtranslator.doc\b2xtranslator.doc.csproj" />
+    <ProjectReference Include="..\..\packages\b2xtranslator.ppt\b2xtranslator.ppt.csproj" />
     <ProjectReference Include="..\..\packages\b2xtranslator\b2xtranslator.csproj" />
   </ItemGroup>
 

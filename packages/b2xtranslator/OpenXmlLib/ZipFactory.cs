@@ -30,12 +30,14 @@ namespace b2xtranslator.OpenXmlLib
 
             public ZipReader(string path) {
                 this.fileStream = new FileStream(path, FileMode.Open, FileAccess.Read);
-                this.zipArchive = new ZipArchive(this.fileStream, ZipArchiveMode.Read);
+                //this.zipArchive = new ZipArchive(this.fileStream, ZipArchiveMode.Read);
+                this.zipArchive = new ZipArchive(this.fileStream, ZipArchiveMode.Read, true);
             }
 
             public ZipReader(Stream stream)
             {
-                this.zipArchive = new ZipArchive(stream, ZipArchiveMode.Read);
+                //this.zipArchive = new ZipArchive(stream, ZipArchiveMode.Read, true);
+                this.zipArchive = new ZipArchive(stream, ZipArchiveMode.Read, true);
             }
 
             public void Close() {

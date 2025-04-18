@@ -69,6 +69,7 @@ namespace b2xtranslator.OpenXmlLib
                     }
                 }
 
+                path.Replace("/", "\\");
                 if (path == "ppt\\slides\\media") return "ppt\\media";
                 if (path == "ppt\\slideLayouts\\media") return "ppt\\media";
                 if (path == "ppt\\notesSlides\\media") return "ppt\\media";
